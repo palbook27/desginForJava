@@ -1,5 +1,7 @@
 package com.pattern.practice;
 
+import com.state.Light;
+
 public class StatePattern {
     //학습목표
     //  -
@@ -12,5 +14,21 @@ public class StatePattern {
         ex)
             -
         */
+        Light light = new Light();
+
+        light.off();
+        light.off();
+        light.off();
+
+        light.on();
+        light.on();
+        light.on();
+
+        light.off();
+        light.on();
+        light.off();
+        light.on();
+        light.off();
+        light.on();
     }
 }
